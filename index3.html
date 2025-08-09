@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Your Cart</title>
+</head>
+
+<body>
+
+    <!-- main nav start -->
+    <nav class="navbar">
+
+        <!-- logo start -->
+        <div class="logo">
+            <a href="index.html"><i class="fa-solid fa-bag-shopping"></i><span> BRAND</span></a>
+        </div>
+        <!-- logo end -->
+
+        <!-- navbar icons start  -->
+        <div class="nav-icons">
+            <div><i class="fas fa-user"></i>Profile</div>
+            <div><i class="fas fa-envelope"></i>Message</div>
+            <div><i class="fa-solid fa-heart"></i>Orders</div>
+            <div class="icon1"><a href="index3.html"><i class="fa-solid fa-cart-shopping"></i>My Cart</a></div>
+        </div>
+        <!-- navbar icons start  -->
+
+    </nav>
+    <!-- main nav end -->
+
+
+    <!-- sub nav start -->
+    <nav class="navb">
+        <div class="nav-left">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-bars"></i> All category</button>
+                <div class="dropdown-content">
+                    <a href="#">Electronics</a>
+                    <a href="#">Fashion</a>
+                    <a href="#">Home & Garden</a>
+                    <a href="#">Automotive</a>
+                    <a href="#">Health & Beauty</a>
+                </div>
+            </div>
+            <a href="#">Hot offers</a>
+            <a href="#">Gift boxes</a>
+            <a href="#">Projects</a>
+            <a href="#">Menu item</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">Help &#9662;</button>
+                <div class="dropdown-content">
+                    <a href="#">FAQ</a>
+                    <a href="#">Support</a>
+                    <a href="#">Feedback</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="nav-right">
+            <div class="dropdown">
+                <button class="dropbtn">English, USD &#9662;</button>
+                <div class="dropdown-content">
+                    <a href="#">English,USD</a>
+                    <a href="#">Spanish,EUR</a>
+                    <a href="#">French,EUR</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Ship to <img src="https://flagcdn.com/w40/de.png" alt="Germany" class="flag">
+                    &#9662;</button>
+                <div class="dropdown-content">
+                    <a href="#">Germany</a>
+                    <a href="#">USA</a>
+                    <a href="#">UK</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- sub nav end -->
+
+
+    <!-- pages start -->
+    <header>
+        <nav>
+            <p>Home > Clothings > Men's wear > Summer clothing</p>
+        </nav>
+    </header>
+    <!-- pages end -->
+
+<!-- main cart section start -->
+    <div class="cart-container">
+        <h2>My cart (3)</h2>
+        <div class="cart-wrapper">
+            <div class="cart-section">
+                <div class="cart-product">
+                   <a href="index4.html"><img src="Image/c1 (1).jpg" alt="Product" /></a> 
+                    <div class="cart-info">
+                        <h4>T-shirts with multiple colors, for men and lady</h4>
+                        <p>Size: medium, Color: blue, Material: Plastic</p>
+                        <p>Seller: Artel Market</p>
+                        <div class="cart-buttons">
+                            <button class="btn-unique btn-remove-unique">Remove</button>
+                            <button class="btn-unique btn-save-unique">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="cart-price-qty">$78.99<br>Qty: 9</div>
+                </div>
+
+                <div class="cart-product">
+                    <img src="Image/c1 (5).jpg" alt="Product" />
+                    <div class="cart-info">
+                        <h4>T-shirts with multiple colors, for men and lady</h4>
+                        <p>Size: medium, Color: blue, Material: Plastic</p>
+                        <p>Seller: Best factory LLC</p>
+                        <div class="cart-buttons">
+                            <button class="btn-unique btn-remove-unique">Remove</button>
+                            <button class="btn-unique btn-save-unique">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="cart-price-qty">$39.00<br>Qty: 3</div>
+                </div>
+
+                <div class="cart-product">
+                    <img src="Image/f1 (6).jpg" alt="Product" />
+                    <div class="cart-info">
+                        <h4>T-shirts with multiple colors, for men and lady</h4>
+                        <p>Size: medium, Color: blue, Material: Plastic</p>
+                        <p>Seller: Artel Market</p>
+                        <div class="cart-buttons">
+                            <button class="btn-unique btn-remove-unique">Remove</button>
+                            <button class="btn-unique btn-save-unique">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="cart-price-qty">$170.50<br>Qty: 1</div>
+                </div>
+
+                <a href="index.html"><button class="btn-backshop">⬅ Back to shop</button></a>
+                <button
+                    style="float:right; border: none; background: transparent; color: #007bff; cursor: pointer;">Remove
+                    all</button>
+            </div>
+
+            <div class="cart-right-panel">
+                <div class="coupon-box">
+                    <p><strong>Have a coupon?</strong></p>
+                    <input type="text" placeholder="Add coupon" />
+                    <button class="btn-unique btn-save-unique" style="width: 100%;">Apply</button>
+                </div>
+                <div class="summary-box">
+                    <p><span>Subtotal:</span> <span>$1403.97</span></p>
+                    <p><span>Discount:</span> <span style="color: green;">- $60.00</span></p>
+                    <p><span>Tax:</span> <span style="color: red;">+ $14.00</span></p>
+                    <p class="total-amount"><span>Total:</span> <span>$1357.97</span></p>
+                    <button class="btn-checkout">Checkout</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-icons-box">
+            <div>💳 Secure payment<br /><small>Have you ever finally just</small></div>
+            <div>💬 Customer support<br /><small>Have you ever finally just</small></div>
+            <div>🛵 Free delivery<br /><small>Have you ever finally just</small></div>
+        </div>
+
+        <div class="saved-section">
+            <h3>Saved for later</h3>
+            <div class="saved-grid-box">
+                <div class="saved-card">
+                    <img src="Image/2.jpg" alt="" />
+                    <p><strong>$99.50</strong></p>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button class="btn-move-cart">Move to cart</button>
+                </div>
+                <div class="saved-card">
+                    <img src="Image/4.jpg" alt="" />
+                    <p><strong>$99.50</strong></p>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button class="btn-move-cart">Move to cart</button>
+                </div>
+                <div class="saved-card">
+                    <img src="Image/8.jpg" alt="" />
+                    <p><strong>$99.50</strong></p>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button class="btn-move-cart">Move to cart</button>
+                </div>
+                <div class="saved-card">
+                    <img src="Image/7.jpg" alt="" />
+                    <p><strong>$99.50</strong></p>
+                    <p>GoPro HERO6 4K Action Camera - Black</p>
+                    <button class="btn-move-cart">Move to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="discount-banner">
+            <div class="dis-banner">
+                <h3>Super discount on more than 100 USD</h3>
+                <p>have you ever finally just write dummy info</p>
+
+            </div>
+
+            <button class="shop-btn">Shop Now</button>
+
+
+
+        </div>
+
+        <!-- main footer start -->
+        <div class="info">
+            <div class="info-left">
+                <div class="logo">
+                    <i class="fa-solid fa-bag-shopping"></i><span> BRAND</span>
+                </div>
+                <!-- logo end -->
+
+                <p class="info-p">Best information about the company gies here but now lorem ipsum is</p>
+
+                <div class="info-icons">
+                    <i class="fa-brands fa-facebook-f" style="padding: 8px 10px;"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+
+
+            <div class="info-right">
+                <!-- Row 1 -->
+                <div class="about-us" style="color: black; font-weight: 600;">About</div>
+                <div class="about-us" style="color: black; font-weight: 600;">Partnership</div>
+                <div class="about-us" style="color: black; font-weight: 600;">Information</div>
+                <div class="about-us" style="color: black; font-weight: 600;">For users</div>
+                <div class="about-us" style="color: black; font-weight: 600;">Get app</div>
+
+                <!-- Row 2 -->
+                <div class="about-us">About Us</div>
+                <div class="about-us">About Us</div>
+                <div class="about-us">Help Center</div>
+                <div class="about-us">Login</div>
+                <div class="about-us merge-row-2-3"><img src="Image/Group1.png"></div>
+
+                <!-- Row 3 -->
+                <div class="about-us">Find Store</div>
+                <div class="about-us">Find Store</div>
+                <div class="about-us">Money Refund</div>
+                <div class="about-us">Register</div>
+
+                <!-- Row 4 -->
+                <div class="about-us">Categories</div>
+                <div class="about-us">Categories</div>
+                <div class="about-us">Shipping</div>
+                <div class="about-us">Settings</div>
+                <div class="about-us merge-row-4-5"><img src="Image/Group2.png"></div>
+
+                <!-- Row 5 -->
+                <div class="about-us">Blogs</div>
+                <div class="about-us">Blogs</div>
+                <div class="about-us">Contact us</div>
+                <div class="about-us">My Orders</div>
+                <!-- 5-5 is merged above -->
+
+            </div>
+        </div>
+        <!-- main footer end -->
+
+    </div>
+<!-- main cart section end -->
+
+
+
+
+    <!-- sub footer start -->
+    <footer class="footer">
+        <div>&copy; 2023 Ecommerce</div>
+        <div class="language-selector">
+            <img src="https://flagcdn.com/w20/us.png" alt="US Flag">
+            <p>English</p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </footer>
+    <!-- sub footer end -->
+
+
+</body>
+
+</html>
